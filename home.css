@@ -1,0 +1,165 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #000;
+    background-color: #fff;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+}
+header{
+    border-bottom: 2px solid  ;
+  
+}
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background: #fff;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+
+.signup-btn {
+    /* background: #000; */
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 10%;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-text h1 {
+    font-size: 32px;
+}
+
+.hero-text p {
+    font-size: 18px;
+}
+
+.btn {
+    background: #000;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Features Section */
+.features {
+    padding: 50px 10%;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.feature img {
+    width: 40%;
+}
+
+.feature-text {
+    width: 50%;
+}
+
+.feature h2 {
+    font-size: 24px;
+}
+
+.feature ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.feature ul li {
+    margin: 10px 0;
+}
+
+/* CTA Section */
+.cta {
+    text-align: center;
+    padding: 50px 0;
+    background: #f7f7f7;
+}
+
+.cta h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    background: #000;
+    color: #fff;
+    padding: 50px 10%;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logo p {
+    margin: 5px 0;
+}
+
+.footer-links {
+    display: flex;
+    gap: 50px;
+}
+
+.footer-links div {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-links h4 {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #ccc;
+    margin: 5px 0;
+}
+
+.footer-links a:hover {
+    color: #fff;
+}
